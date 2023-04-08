@@ -1,0 +1,26 @@
+.selcls {
+  padding: 3px;
+
+  border: solid 1px #517b97;
+
+  outline: 0;
+
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left 25,
+    from(#ffffff),
+    color-stop(4%, #cad9e3),
+    to(#ffffff)
+  );
+
+  background: -moz-linear-gradient(top, #ffffff, #cad9e3 1px, #ffffff 25px);
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+
+  width: 150px;
+}
