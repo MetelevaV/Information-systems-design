@@ -1,0 +1,40 @@
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td:first-child {
+  background: #afcde7;
+  color: rgb(72, 70, 70);
+  padding: 10px 20px;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+td {
+  background: #d8e6f3;
+}
+td:first-child {
+  text-align: left;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+input {
+  margin: 6px 0;
+  border: 1px solid #454444;
+  border-radius: 2px;
+  height: 45px;
+  text-align: center;
+}
+input,
+input::placeholder {
+  font: 20px sans-serif;
+}
