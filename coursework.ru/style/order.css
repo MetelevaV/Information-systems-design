@@ -1,0 +1,22 @@
+body {
+  line-height: 40px;
+  font-size: 18px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+}
+input {
+  margin: 8px 0;
+  border: 1px solid #454444;
+  border-radius: 2px;
+  height: 20px;
+  text-align: center;
+}
+select {
+  margin: 8px 0;
+  border: 1px solid #454444;
+  border-radius: 2px;
+  height: 23px;
+  text-align: center;
+}
